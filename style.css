@@ -1,0 +1,2901 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+}
+.boxes{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('./section_one_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.box1{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+}
+.box1_1{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.durdon{
+    width: 9%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    position: relative;
+}
+.durdon::after{
+    position: absolute;
+    content: "CS";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(14, 105, 196);
+    border-radius: 3px;
+    right: 16%;
+    bottom: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.box1_2{
+    width: 75%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+a{
+    padding-right: 2%;
+    color: white;
+    text-decoration: none;
+}
+.box1 svg{
+    color: white;
+    background-color: transparent;
+    margin-left: 1%;
+}
+.box2{
+    width: 100%;
+    height: 72%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box2 h1{
+    color: white;
+    font-size: 130px;
+}
+.box2 h3{
+    font-size: 20px;
+    text-align:justify;
+    color: cornflowerblue;
+    letter-spacing: 18px;
+}
+.box3{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box3 h4{
+    color: gray;
+    
+}
+.box4{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content:space-around;
+}
+.box4_1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.boxes2{
+    width: 100%;
+    height: 80vh;
+    background-color: dodgerblue;
+}
+.div1{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+
+}
+.div1::after{
+    position: absolute;
+    content: 'W';
+    font-weight: bold;
+    font-size: 250px;
+    color:rgb(36, 129, 221);;
+}
+.div1 h1{
+    z-index: 2;
+}
+.div2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+.div2_1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.divcha{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgb(36, 129, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.divcha svg{
+    color: white;
+}
+.divcha2{
+    color: white;
+    margin-top: 10px;
+}
+.divt{
+    color: white;
+    margin-top: 10px;
+}
+.boxes3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.quti5{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+
+}
+.quti1{
+    width: 50%;
+    height: 100%;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.quti1_1{
+    width: 70%;
+    height: 100%;
+    margin-top: 5%;
+}
+.quti1_1 h6{
+    margin-bottom: 2%;
+
+}
+.quti1_1 h2{
+    margin-bottom: 4%;
+}
+.quti1_1 h4{
+    margin-top: 4%;
+}
+.quti2{
+    width: 50%;
+    height: 100%;
+}
+.quti6{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+
+}
+.quti3{
+    width: 50%;
+    height: 100%;
+}
+.quti4{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.quti4_1{
+    width: 70%;
+    height: 100%;
+    margin-top: 5%;
+}
+.quti4_1 h6{
+    margin-bottom: 2%;
+
+}
+.quti4_1 h2{
+    margin-bottom: 4%;
+}
+.quti4_1 h4{
+    margin-top: 4%;
+}
+.boxes4{
+    width: 100%;
+    height: 120vh;
+    border-top: 1px solid gray;
+}
+.text{
+    width: 100%;
+    height: 35%;
+    
+}
+.text1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.text1::after{
+    position: absolute;
+    content: 'B';
+    font-size: 150px;
+    font-weight: bold;
+    color: rgb(189, 185, 185);
+}
+.text1 h2{
+    font-weight: bold;
+    z-index: 2;
+}
+.text h3{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rasmlar{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    
+}
+.rasm{
+    width: 18%;
+    height: 100%;
+    margin-left: 2%;
+}
+.rasm h3{
+    color: deepskyblue;
+    margin-top: 5%;
+}
+.rasm h4{
+    margin-top: 5%;
+}
+.boxes5{
+    width: 100%;
+    height: 50vh;
+    background-color:royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.matn{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.matn svg{
+    color: white;
+    width: 80px;
+    height: 80px;
+
+}
+.matn p{
+    width: 70%;
+    height: 50%;
+    padding-top: 3%;
+}
+.boxes6{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./workplace.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+
+}
+.wrap1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap1_1{
+    width: 60%;
+    height: 60%;
+    color: white;
+}
+.wrap1_1 h2{
+    margin-bottom: 5%;
+}
+.wrap1_1 h4{
+    margin-bottom: 15%;
+}
+.wrap1_1 h3{
+    margin-bottom: 5%;
+    width: 90%;
+    height: 10%;
+    background-color:dodgerblue;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+.wrap2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.wrap2 img{
+    padding-left: 5%;
+}
+.boxes7{
+    width: 100%;
+    height: 120vh;
+    border-top: 1px solid gray;
+}
+.mavzu1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.mavzu{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.mavzu::after{
+    position: absolute;
+    content: 'T';
+    color: rgb(198, 192, 192);
+    font-weight: bold;
+    font-size: 250px;
+   
+}
+.mavzu h2{
+    z-index: 2;
+    letter-spacing: 5px;
+}
+.mavzu1 h3{
+    letter-spacing: 5px;
+    color:dimgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rasmlar2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.rasm2_1{
+    width: 20%;
+    height: 95%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.rasm2_2{
+    position: absolute;
+    bottom: 5%;
+    width: 80%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.rasm2_2 h2{
+    color: deepskyblue;
+   
+}
+.boxes8{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/img/forms-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.max1{
+    width: 100%;
+    height: 35%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.max1::after{
+    position: absolute;
+    content: 'C';
+    color: gray;
+    font-weight: bold;
+    font-size: 230px;
+    text-decoration: transparent;
+
+}
+.max1 h1{
+    z-index: 2;
+}
+.max2{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.max2 input{
+    width: 25%;
+    height: 35%;
+    border: 2px solid gray;
+    margin-left: 1%;
+    padding-left: 1%;
+    background-color: transparent;
+    color: white;
+}
+.max3{
+    width: 100%;
+    height: 46%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.max3 input{
+    width: 81%;
+    height: 32%;
+    border: 2px solid gray;
+    background-color: transparent;
+    padding-bottom: 14%;
+    padding-left: 1%;
+    color: white;
+}
+.max3 button{
+    width: 15%;
+    height: 15%;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: 20px;
+    padding: 10px 75px;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    background-image: url('./img/img/map.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+.ari{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(60, 57, 57);  
+    color: white;
+    display: flex;
+  
+
+}
+.ari1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ari1 img{
+    margin-bottom: 1%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) and (min-width: 1100px){
+    .boxes{
+        height: 100vh;
+    }
+    .box1{
+        height: 12%;
+    }
+   .box1_1{
+    width: 30%;
+    height: 70%;
+   }
+   .box1_2{
+    width: 70%;
+   }
+   .box2{
+    height: 60%;
+   }
+   
+   .box2 h1{
+    font-size: 125px;
+
+   }
+   .box2 h3{
+    font-size: 20px;
+    letter-spacing: 15px;
+   }
+   .boxes2{
+    height: 100vh;
+   }
+   .div1 h1{
+    font-size: 35px;
+   }
+   .div1{
+    height: 40%;
+   }
+   .div2_1{
+    margin: 3%;
+    text-align:justify;
+   }
+   .div2_1 h4{
+    font-size: 16px;
+   }
+   .div1::after{
+    font-size: 200px;
+   }
+   .boxes4{
+    height: 120vh;
+   }
+   .text {
+    height: 35%;
+   }
+   .text1{
+    height: 60%;
+   }
+   .text1::after{
+    font-size: 150px;
+   }
+   .text h3{
+    color: gray;
+    letter-spacing: 2px;
+
+   }
+   .rasmlar{
+    height: 65%;
+   }
+   .rasm{
+    margin-left: 5%;
+    height: 100%;
+   }
+   .rasm h4{
+    font-size: 14px;
+    text-align: justify;
+   }
+   .boxes5{
+    height: 50vh;
+   }
+   .matn svg{
+    width: 80px;
+    height: 80px;
+   }
+   .matn p{
+    font-size: 16px;
+   }
+   .boxes6{
+    width: 100%;
+    height: 90vh;
+   }
+   .wrap1_1 h3,h4{
+    font-size: 13px;
+   }
+   .wrap2 img{
+    height: 70vh;
+    padding-left: 10%;
+   }
+   .mavzu::after{
+    font-size: 170px;
+   }
+   .boxes8{
+    width: 100%;
+    height: 95vh;
+   }
+   .max1 h1{
+    font-size: 30px;
+   }
+   .max1::after{
+    font-size: 170px;
+   }
+   .max3 button{
+    padding: 10px 60px;
+   }
+  
+}
+@media (max-width: 1100px) and (min-width: 1000px){
+    .boxes{
+        height: 90vh;
+    }
+    .box1{
+        height: 13%;
+    }
+   .box1_1{
+    width: 30%;
+    height: 70%;
+   }
+   .box1_1 .durdon{
+    width: 12%;
+   }
+   .box1_2{
+    width: 70%;
+   }
+   .box2{
+    height: 55%;
+   }
+   
+   .box2 h1{
+    font-size: 100px;
+
+   }
+   .box2 h3{
+    font-size: 18px;
+    letter-spacing: 12px;
+   }
+   .box4_1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   }
+   .box3 h4{
+    font-size: 14px;
+   }
+   .boxes2{
+    height: 90vh;
+   }
+   .div1 h1{
+    font-size: 30px;
+   }
+   .div1{
+    height: 40%;
+   }
+   .div2_1{
+    width: 15%;
+
+   }
+   .div2_1{
+    margin: 3%;
+    text-align:justify;
+   }
+   .div2_1 h4{
+    font-size: 14px;
+   }
+   .div1::after{
+    font-size: 170px;
+   }
+   .divcha{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+   }
+   .quti1_1 p,h4{
+    font-size: 13px;
+   }
+   .quti1_1 h2{
+    font-size: 18px;
+   }
+   .quti4_1 p,h4{
+    font-size: 13px;
+   }
+   .quti4_1 h2{
+    font-size: 18px;
+   }
+   .boxes4{
+    height: 110vh;
+   }
+   .text {
+    height: 35%;
+   }
+   .text1{
+    height: 60%;
+   }
+   .text1::after{
+    font-size: 130px;
+   }
+   .text h3{
+    color: gray;
+    letter-spacing: 2px;
+
+   }
+   .rasmlar{
+    height: 65%;
+   }
+   .rasm{
+    margin-left: 5%;
+    height: 100%;
+   }
+   .rasm h3{
+    font-size: 15px;
+   }
+   .rasm h4{
+    font-size: 13px;
+    text-align: justify;
+   }
+   .boxes5{
+    height: 40vh;
+   }
+   .matn svg{
+    width: 70px;
+    height: 70px;
+   }
+   .matn p{
+    font-size: 15px;
+   }
+   .boxes6{
+    width: 100%;
+    height: 82vh;
+   }
+   .wrap1_1 h3,h4{
+    font-size: 12px;
+   }
+   .wrap1_1 h2{
+    font-size: 19px;
+   }
+   .wrap2 img{
+    height: 65vh;
+    padding-left: 5%;
+   }
+   .boxes7{
+    width: 100%;
+    height: 110vh;
+   }
+   .mavzu1{
+    width: 100%;
+    height: 35%;
+   }
+   .mavzu::after{
+    font-size: 150px;
+   }
+   .rasm2_2{
+    width: 80%;
+    height: 15%;
+
+   }
+   .rasm2_2 h2{
+    font-size: 22px;
+   }
+   .rasm2_2 h3{
+    font-size: 19px;
+
+   }
+   .boxes8{
+    width: 100%;
+    height: 88vh;
+   }
+   .max1 h1{
+    font-size: 25px;
+   }
+   .max1::after{
+    font-size: 150px;
+   }
+   .max3 button{
+    margin-top: 3%;
+    padding: 10px 40px;
+   }
+   .max3 input{
+    width: 80%;
+    height: 25%;
+   }
+   footer{
+    width: 100%;
+    height: 46vh;
+   }
+   .ari{
+    width: 100%;
+    height: 12vh;
+   }
+
+}
+@media (max-width: 1000px) and (min-width: 900px){
+    .boxes{
+        height: 85vh;
+    }
+    .box1{
+        height: 12%;
+    }
+   .box1_1{
+    width: 30%;
+    height: 70%;
+   }
+   .box1_1 .durdon{
+    width: 11%;
+   }
+   .box1_2{
+    width: 70%;
+   }
+   .box2{
+    height: 55%;
+   }
+   
+   .box2 h1{
+    font-size: 90px;
+
+   }
+   .box2 h3{
+    font-size: 16px;
+    letter-spacing: 10px;
+   }
+   .box4_1{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+   }
+   .box3 h4{
+    font-size: 13px;
+   }
+   .boxes2{
+    height: 85vh;
+   }
+   .div1 h1{
+    font-size: 28px;
+    letter-spacing: 2px;
+   }
+   .div1{
+    height: 40%;
+   }
+   .div2_1{
+    width: 15%;
+
+   }
+   .div2_1{
+    margin: 3%;
+    text-align:justify;
+   }
+   .div2_1 h4{
+    font-size: 14px;
+   }
+   .div1::after{
+    font-size: 170px;
+   }
+   .divcha{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+   }
+   .quti1_1 p,h4{
+    font-size: 13px;
+   }
+   .quti1_1 h2{
+    font-size: 18px;
+   }
+   .quti4_1 p,h4{
+    font-size: 13px;
+   }
+   .quti4_1 h2{
+    font-size: 18px;
+   }
+   .boxes4{
+    height: 110vh;
+   }
+   .text {
+    height: 35%;
+   }
+   .text1{
+    height: 60%;
+   }
+   .text1::after{
+    font-size: 130px;
+   }
+   .text h3{
+    color: gray;
+    letter-spacing: 2px;
+
+   }
+   .rasmlar{
+    height: 65%;
+   }
+   .rasm{
+    margin-left: 5%;
+    height: 100%;
+   }
+   .rasm h3{
+    font-size: 15px;
+   }
+   .rasm h4{
+    font-size: 13px;
+    text-align: justify;
+   }
+   .boxes5{
+    height: 37vh;
+   }
+   .matn svg{
+    width: 65px;
+    height: 65px;
+   }
+   .matn p{
+    font-size: 15px;
+   }
+   .boxes6{
+    width: 100%;
+    height: 75vh;
+   }
+   .wrap1_1 h3,h4{
+    font-size: 12px;
+   }
+   .wrap1_1 h2{
+    font-size: 19px;
+   }
+   .wrap2 img{
+    height: 65vh;
+    padding-left: 5%;
+   }
+   .boxes7{
+    width: 100%;
+    height: 100vh;
+   }
+   .mavzu1{
+    width: 100%;
+    height: 32%;
+   }
+   .mavzu::after{
+    font-size: 140px;
+   }
+   .rasm2_2{
+    width: 80%;
+    height: 15%;
+
+   }
+   .rasm2_2 h2{
+    font-size: 17px;
+   }
+   .rasm2_2 h3{
+    font-size: 15px;
+
+   }
+   .boxes8{
+    width: 100%;
+    height: 78vh;
+   }
+   .max1 h1{
+    font-size: 22px;
+   }
+   .max1::after{
+    font-size: 140px;
+   }
+   .max3 button{
+    margin-top: 3%;
+    padding: 10px 35px;
+    font-size: 16px;
+   }
+   .max3 input{
+    width: 80%;
+    height: 25%;
+   }
+   footer{
+    width: 100%;
+    height: 42vh;
+   }
+   .ari{
+    width: 100%;
+    height: 10vh;
+   }
+
+}
+
+@media (max-width: 900px) and (min-width: 800px){
+    .boxes{
+        height: 80vh;
+    }
+    .box1{
+        height: 12%;
+    }
+   .box1_1{
+    width: 30%;
+    height: 70%;
+   }
+   .box1_1 .durdon{
+    width: 11%;
+   }
+   .box1_2{
+    width: 70%;
+   }
+   .box2{
+    height: 70%;
+   }
+   
+   .box2 h1{
+    font-size: 85px;
+
+   }
+   .box2 h3{
+    font-size: 15px;
+    letter-spacing: 9px;
+   }
+   .box4_1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+   }
+   .box3 h4{
+    font-size: 12px;
+   }
+   .boxes2{
+    height: 80vh;
+   }
+   .div1 h1{
+    font-size: 22px;
+    letter-spacing: 1px;
+   }
+   .div1{
+    height: 35%;
+   }
+   .div2_1{
+    width: 15%;
+
+   }
+   .div2_1{
+    margin: 3%;
+    text-align:justify;
+   }
+   .div2_1 h4{
+    font-size: 12px;
+   }
+   .div2_1 h3{
+    font-size: 16px;
+   }
+   .div1::after{
+    font-size: 160px;
+   }
+   .divcha{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+   }
+   .divcha svg{
+    width: 20px;
+    height: 20px;
+   }
+   .boxes3{
+    width: 100%;
+    height: 100vh;
+   }
+   .quti3 img{
+    width: 100%;
+    height: 100%;
+   }
+   .quti1_1 p,h4{
+    font-size: 13px;
+   }
+   .quti1_1 h2{
+    font-size: 18px;
+   }
+   .quti4_1 p,h4{
+    font-size: 12px;
+   }
+   .quti4_1 h2{
+    font-size: 17px;
+   }
+   .boxes4{
+    height: 100vh;
+   }
+   .text {
+    height: 35%;
+   }
+   .text1{
+    height: 60%;
+   }
+   .text1::after{
+    font-size: 115px;
+   }
+   .text h3{
+    color: gray;
+    letter-spacing: 1px;
+
+   }
+   .rasmlar{
+    height: 60%;
+   }
+   .rasm{
+    width: 18%;
+    margin-left: 5%;
+    height: 100%;
+   }
+   .rasm h3{
+    font-size: 13px;
+   }
+   .rasm h4{
+    font-size: 11px;
+    text-align: justify;
+   }
+   .boxes5{
+    height: 35vh;
+   }
+   .matn svg{
+    width: 62px;
+    height: 62px;
+   }
+   .matn p{
+    font-size: 13px;
+   }
+   .boxes6{
+    width: 100%;
+    height: 67vh;
+   }
+   .wrap1_1 h3,h4{
+    font-size: 11px;
+   }
+   .wrap1_1 h2{
+    font-size: 18px;
+   }
+   .wrap2 img{
+    height: 58vh;
+    padding-left: 4%;
+   }
+   .boxes7{
+    width: 100%;
+    height: 90vh;
+   }
+   .mavzu1{
+    width: 100%;
+    height: 32%;
+   }
+   .mavzu::after{
+    font-size: 130px;
+   }
+   .mavzu1 h3{
+    letter-spacing: 3px;
+
+   }
+   .rasm2_2{
+    width: 80%;
+    height: 15%;
+
+   }
+   .rasm2_2 h2{
+    font-size: 16px;
+   }
+   .rasm2_2 h3{
+    font-size: 14px;
+
+   }
+   .boxes8{
+    width: 100%;
+    height: 70vh;
+   }
+   .max1 h1{
+    font-size: 20px;
+   }
+   .max1::after{
+    font-size: 120px;
+   }
+   .max3 button{
+    margin-top: 3%;
+    width: 15%;
+    height: 15%;
+    font-size: 15px;
+    padding: 0px;
+   }
+   .max3 input{
+    width: 80%;
+    height: 18%;
+   }
+   footer{
+    width: 100%;
+    height: 28vh;
+   }
+   .ari{
+    width: 100%;
+    height: 9vh;
+   }
+
+}
+
+
+@media (max-width: 800px) and (min-width: 700px){
+    .boxes{
+        height: 72vh;
+    }
+    .box1{
+        height: 12%;
+    }
+   .box1_1{
+    width: 20%;
+    height: 70%;
+   }
+   .box1_1 .durdon{
+    width: 17%;
+   }
+   .durdon::after{
+    font-size: 10px;
+   }
+   .box1_2{
+    width: 80%;
+   }
+   .box1_2 a{
+    font-size: 14px;
+   }
+   .box1_2 svg{
+    width: 14px;
+    height: 14px;
+   }
+   .box2{
+    height: 65%;
+   }
+   
+   .box2 h1{
+    font-size: 78px;
+
+   }
+   .box2 h3{
+    font-size: 13px;
+    letter-spacing: 7px;
+   }
+   .box4_1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+   }
+   .box3 h4{
+    font-size: 12px;
+   }
+   .boxes2{
+    height: 72vh;
+   }
+   .div1 h1{
+    font-size: 19px;
+    letter-spacing: 1px;
+   }
+   .div1{
+    height: 35%;
+   }
+   .div2_1{
+    width: 15%;
+
+   }
+   .div2_1{
+    margin: 3%;
+    text-align:justify;
+   }
+   .div2_1 h4{
+    font-size: 11px;
+   }
+   .div2_1 h3{
+    font-size: 13px;
+   }
+   .div1::after{
+    font-size: 150px;
+   }
+   .divcha{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+   }
+   .divcha svg{
+    width: 20px;
+    height: 20px;
+   }
+   .quti1_1 p,h4{
+    font-size: 13px;
+   }
+   .quti1_1 h2{
+    font-size: 18px;
+   }
+   .quti4_1 p,h4{
+    font-size: 12px;
+   }
+   .quti4_1 h2{
+    font-size: 17px;
+   }
+   .boxes4{
+    height: 95vh;
+   }
+   .text {
+    height: 35%;
+   }
+   .text1{
+    height: 60%;
+   }
+   .text1::after{
+    font-size: 110px;
+   }
+   .text h3{
+    color: gray;
+    letter-spacing: 1px;
+
+   }
+   .rasmlar{
+    height: 60%;
+   }
+   .rasm{
+    width: 17%;
+    margin-left: 5%;
+    height: 100%;
+   }
+   .rasm h3{
+    font-size: 10px;
+   }
+   .rasm h4{
+    font-size: 10px;
+    text-align: justify;
+   }
+   .boxes5{
+    height: 30vh;
+   }
+   .matn svg{
+    width: 55px;
+    height: 55px;
+   }
+   .matn p{
+    font-size: 11px;
+   }
+   .boxes6{
+    width: 100%;
+    height: 58vh;
+   }
+   .wrap1_1 h3,h4{
+    font-size: 10px;
+   }
+   .wrap1_1 h2{
+    font-size: 17px;
+   }
+   .wrap2 img{
+    height: 50vh;
+    padding-left: 3%;
+   }
+   .boxes7{
+    width: 100%;
+    height: 85vh;
+   }
+   .mavzu1{
+    width: 100%;
+    height: 32%;
+   }
+   .mavzu::after{
+    font-size: 120px;
+   }
+   .mavzu1 h3{
+    letter-spacing: 2px;
+
+   }
+   .rasm2_2{
+    width: 80%;
+    height: 15%;
+
+   }
+   .rasm2_2 h2{
+    font-size: 15px;
+   }
+   .rasm2_2 h3{
+    font-size: 13px;
+
+   }
+   .boxes8{
+    width: 100%;
+    height: 60vh;
+   }
+   .max1 h1{
+    font-size: 18px;
+   }
+   .max1::after{
+    font-size: 115px;
+   }
+   .max3 button{
+    margin-top: 3%;
+    width: 15%;
+    height: 15%;
+    font-size: 15px;
+    padding: 0px;
+   }
+   .max3 input{
+    width: 80%;
+    height: 15%;
+   }
+   footer{
+    width: 100%;
+    height: 25vh;
+   }
+   .ari{
+    width: 100%;
+    height: 8vh;
+   }
+
+}
+
+@media (max-width: 700px) and (min-width: 600px){
+    .boxes{
+        height: 60vh;
+    }
+    .box1{
+        height: 12%;
+    }
+   .box1_1{
+    width: 20%;
+    height: 70%;
+   }
+   .box1_1 .durdon{
+    width: 18%;
+   }
+   .durdon::after{
+    font-size: 10px;
+   }
+   .box1_2{
+    width: 80%;
+   }
+   .box1_2 a{
+    font-size: 12px;
+   }
+   .box1_2 svg{
+    width: 12px;
+    height: 12px;
+   }
+   .box2{
+    height: 60%;
+   }
+   
+   .box2 h1{
+    font-size: 65px;
+
+   }
+   .box2 h3{
+    font-size: 12px;
+    letter-spacing: 6px;
+   }
+   .box4_1{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+   }
+   .box4_1 svg{
+    width: 14px;
+    height: 14px;
+   }
+   .box3 h4{
+    font-size: 11px;
+   }
+   .boxes2{
+    height: 68vh;
+   }
+   .div1 h1{
+    font-size: 18px;
+    letter-spacing: 1px;
+   }
+   .div1{
+    height: 35%;
+   }
+   .div2_1{
+    width: 15%;
+
+   }
+   .div2_1{
+    margin: 3%;
+    text-align:justify;
+   }
+   .div2_1 h4{
+    font-size: 10px;
+   }
+   .div2_1 h3{
+    font-size: 12px;
+   }
+   .div1::after{
+    font-size: 130px;
+   }
+   .divcha{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+   }
+   .divcha svg{
+    width: 17px;
+    height: 17px;
+   }
+   .quti1_1 p,h4{
+    font-size: 12px;
+   }
+   .quti1_1 h2{
+    font-size: 17px;
+   }
+   .quti4_1 p,h4{
+    font-size: 11px;
+   }
+   .quti4_1 h2{
+    font-size: 17px;
+   }
+   .quti1_1 h6{
+    font-size: 8px;
+   }
+   .quti4 h6{
+    font-size: 8px;
+   }
+   .boxes4{
+    height: 90vh;
+   }
+   .text {
+    height: 35%;
+   }
+   .text1{
+    height: 60%;
+   }
+   .text1 h2{
+    font-size: 20px;
+   }
+   .text1::after{
+    font-size: 100px;
+   }
+   .text h3{
+    color: gray;
+
+   }
+   .rasmlar{
+    height: 60%;
+   }
+   .rasm{
+    width: 17%;
+    margin-left: 5%;
+    height: 100%;
+   }
+   .rasm h3{
+    font-size: 10px;
+   }
+   .rasm h4{
+    font-size: 10px;
+    text-align: justify;
+   }
+   .boxes5{
+    height: 27vh;
+   }
+   .matn svg{
+    width: 50px;
+    height: 50px;
+   }
+   .matn p{
+    font-size: 10px;
+   }
+   .boxes6{
+    width: 100%;
+    height: 50vh;
+   }
+   .wrap1_1 h3,h4{
+    font-size: 9px;
+   }
+   .wrap1_1 h2{
+    font-size: 15px;
+   }
+   .wrap2 img{
+    height: 40vh;
+    padding-left: 3%;
+   }
+   .boxes7{
+    width: 100%;
+    height: 85vh;
+   }
+   .mavzu1{
+    width: 100%;
+    height: 32%;
+   }
+   .mavzu::after{
+    font-size: 120px;
+   }
+   .mavzu h2{
+    font-size: 22px;
+   }
+   .mavzu1 h3{
+    font-size: 15px;
+    letter-spacing: 2px;
+
+   }
+   .rasm2_2{
+    position: absolute;
+    bottom: 10%;
+    width: 80%;
+    height: 15%;
+
+   }
+   .rasm2_2 h2{
+    font-size: 14px;
+   }
+   .rasm2_2 h3{
+    font-size: 12px;
+
+   }
+   .boxes8{
+    width: 100%;
+    height: 50vh;
+   }
+   .max1 h1{
+    font-size: 15px;
+   }
+   .max1::after{
+    font-size: 90px;
+   }
+   .max3 button{
+    margin-top: 3%;
+    width: 15%;
+    height: 15%;
+    font-size: 12px;
+    padding: 0px;
+   }
+   .max3 input{
+    width: 80%;
+    height: 15%;
+   }
+   footer{
+    width: 100%;
+    height: 17vh;
+   }
+   .ari{
+    width: 100%;
+    height: 7vh;
+   }
+   .ari1 h6{
+    font-size: 9px;
+
+   }
+   .ari1 img{
+    width: 15px;
+    height: 15px;
+
+   }
+
+}
+
+@media (max-width: 600px) and (min-width: 500px){
+    .boxes{
+        height: 45vh;
+    }
+    .box1{
+        height: 12%;
+    }
+   .box1_1{
+    width: 18%;
+    height: 70%;
+   }
+   .box1_1 .durdon{
+    width: 18%;
+   }
+   .durdon::after{
+    font-size: 8px;
+   }
+   .box1_2{
+    width: 80%;
+   }
+   .box1_2 a{
+    font-size: 9px;
+   }
+   .box1_2 svg{
+    width: 10px;
+    height: 10px;
+   }
+   .box2{
+    height: 60%;
+   }
+   
+   .box2 h1{
+    font-size: 45px;
+
+   }
+   .box2 h3{
+    font-size: 10px;
+    letter-spacing: 4px;
+   }
+   .box4_1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   }
+   .box4_1 svg{
+    width: 10px;
+    height: 10px;
+   }
+   .box3 h4{
+    font-size: 9px;
+   }
+   .boxes2{
+    height: 100vh;
+   }
+   .div1 h1{
+    font-size: 20px;
+   }
+   .div1{
+    height: 30%;
+   }
+   .div2{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .div2_1{
+    width: 40%;
+    height: 60%;
+
+   }
+   .div2_1{
+
+    margin: 3%;
+    text-align:justify;
+   }
+   .div2_1 h4{
+    font-size: 15px;
+   }
+   .div2_1 h3{
+    font-size: 13px;
+   }
+   .div1::after{
+    font-size: 120px;
+   }
+   .divcha{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+   }
+   .boxes3{
+    width: 100%;
+    height: 200vh;
+   }
+   .quti5{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   }
+   .quti6{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   }
+   .quti1_1 p{
+    font-size: 15px;
+   }
+   .quti1{
+    width: 100%;
+    height: 50%;
+   }
+   .quti2{
+    width: 100%;
+    height: 50%;
+   }
+   .quti3{
+    width: 100%;
+    height: 50%;
+   }
+   .quti4{
+    width: 100%;
+    height: 50%;
+   }
+   .quti1_1 h2{
+    font-size: 20px;
+   }
+   .quti4_1 p{
+    font-size: 15px;
+   }
+   .quti4_1 h4{
+    font-size: 14px;
+    color: gray;
+
+   }
+   .quti1_1 h4{
+    font-size: 14px;
+    color:white;
+
+   }
+   .quti4_1 h2{
+    font-size: 20px;
+   }
+   .quti1_1 h6{
+    font-size: 10px;
+   }
+   .quti4 h6{
+    font-size: 10px;
+   }
+   .boxes4{
+    height: 200vh;
+   }
+   .text {
+    height: 20%;
+   }
+   .text1{
+    height: 60%;
+   }
+   .text1 h2{
+    font-size: 20px;
+   }
+   .text1::after{
+    font-size: 100px;
+   }
+   .text h3{
+    color: gray;
+    font-size: 15px;
+
+   }
+   .rasmlar{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .rasm{
+    width: 35%;
+    padding: 3%;
+    height: 50%;
+   }
+   .rasm h3{
+    font-size: 15px;
+   }
+   .rasm h4{
+    font-size: 13px;
+    text-align: justify;
+   }
+   .boxes5{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .matn{
+    width: 100%;
+    height: 50%;
+   }
+
+   .matn svg{
+    width: 50px;
+    height: 50px;
+   }
+   .matn p{
+    font-size: 12px;
+   }
+   .boxes6{
+    width: 100%;
+    height: 38vh;
+   }
+   .wrap1_1 h3,h4{
+    font-size: 7px;
+   }
+   .wrap1_1 h2{
+    font-size: 12px;
+   }
+   .wrap2 img{
+    height: 30vh;
+    padding-left: 3%;
+   }
+   .boxes7{
+    width: 100%;
+    height: 150vh;
+   }
+   .mavzu1{
+    width: 100%;
+    height: 25%;
+   }
+   .mavzu::after{
+    font-size: 120px;
+   }
+   .mavzu h2{
+    font-size: 22px;
+   }
+   .mavzu1 h3{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 10%;
+
+   }
+   .rasm2_1{
+    width: 32%;
+    height: 35%;
+   }
+   .rasm2_2{
+    position: absolute;
+    top: 95%;
+    width: 90%;
+    height: 20%;
+   }
+   .rasmlar2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+
+   }
+   .rasm2_2 h2{
+    font-size: 17px;
+   }
+   .rasm2_2 h3{
+    font-size: 15px;
+
+   }
+   .boxes8{
+    width: 100%;
+    height: 40vh;
+   }
+   .max1 h1{
+    font-size: 13px;
+   }
+   .max1::after{
+    font-size: 80px;
+   }
+    .placehder{
+        font-size: 8px;
+
+   }
+    
+   .max3 button{
+    margin-top: 2%;
+    width: 15%;
+    height: 30%;
+    font-size: 8px;
+    padding: 0px;
+   }
+   .max3 input{
+    width: 80%;
+    height: 10%;
+   }
+   footer{
+    width: 100%;
+    height: 15vh;
+   }
+   .ari{
+    width: 100%;
+    height: 6vh;
+   }
+   .ari1 h6{
+    font-size: 8px;
+
+   }
+   .ari1 img{
+    width: 14px;
+    height: 14px;
+
+   }
+
+}
+
+@media (max-width: 500px) and (min-width: 400px){
+    .boxes{
+        height: 40vh;
+    }
+    .box1{
+        height: 12%;
+    }
+   .box1_1{
+    width: 18%;
+    height: 70%;
+   }
+   .box1_1 .durdon{
+    width: 19%;
+   }
+   .durdon::after{
+    font-size: 7px;
+   }
+   .box1_2{
+    width: 80%;
+   }
+   .box1_2 a{
+    font-size: 9px;
+   }
+   .box1_2 svg{
+    width: 10px;
+    height: 10px;
+   }
+   .box2{
+    height: 60%;
+   }
+   
+   .box2 h1{
+    font-size: 45px;
+
+   }
+   .box2 h3{
+    font-size: 10px;
+    letter-spacing: 4px;
+   }
+   .box4_1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   }
+   .box4_1 svg{
+    width: 9px;
+    height: 9px;
+   }
+   .box3 h4{
+    font-size: 9px;
+   }
+   .boxes2{
+    height: 95vh;
+   }
+   .div1 h1{
+    font-size: 18px;
+   }
+   .div1{
+    height: 30%;
+   }
+   .div2{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .div2_1{
+    width: 40%;
+    height: 60%;
+
+   }
+   .div2_1{
+
+    margin: 3%;
+    text-align:justify;
+   }
+   .div2_1 h4{
+    font-size: 14px;
+   }
+   .div2_1 h3{
+    font-size: 12px;
+   }
+   .div1::after{
+    font-size: 110px;
+   }
+   .divcha{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+   }
+   .divcha svg{
+    width: 18px;
+    height: 18px;
+   }
+   .boxes3{
+    width: 100%;
+    height: 200vh;
+   }
+   .quti5{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   }
+   .quti6{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   }
+   .quti1_1 p{
+    font-size: 15px;
+   }
+   .quti1{
+    width: 100%;
+    height: 50%;
+   }
+   .quti2{
+    width: 100%;
+    height: 50%;
+   }
+   .quti3{
+    width: 100%;
+    height: 50%;
+   }
+   .quti4{
+    width: 100%;
+    height: 50%;
+   }
+   .quti1_1 h2{
+    font-size: 20px;
+   }
+   .quti4_1 p{
+    font-size: 15px;
+   }
+   .quti4_1 h4{
+    font-size: 14px;
+    color: gray;
+
+   }
+   .quti1_1 h4{
+    font-size: 14px;
+    color:white;
+
+   }
+   .quti4_1 h2{
+    font-size: 20px;
+   }
+   .quti1_1 h6{
+    font-size: 10px;
+   }
+   .quti4 h6{
+    font-size: 10px;
+   }
+   .boxes4{
+    height: 200vh;
+   }
+   .text {
+    height: 20%;
+   }
+   .text1{
+    height: 60%;
+   }
+   .text1 h2{
+    font-size: 20px;
+   }
+   .text1::after{
+    font-size: 100px;
+   }
+   .text h3{
+    color: gray;
+    font-size: 15px;
+
+   }
+   .rasmlar{
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .rasm{
+    width: 35%;
+    padding: 3%;
+    height: 50%;
+   }
+   .rasm h3{
+    font-size: 15px;
+   }
+   .rasm h4{
+    font-size: 13px;
+    text-align: justify;
+   }
+   .boxes5{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .matn{
+    width: 100%;
+    height: 50%;
+   }
+
+   .matn svg{
+    width: 45px;
+    height: 45px;
+   }
+   .matn p{
+    font-size: 12px;
+   }
+   .boxes6{
+    width: 100%;
+    height: 35vh;
+   }
+   .wrap1_1 h3,h4{
+    font-size: 6px;
+   }
+   .wrap1_1 h2{
+    font-size: 11px;
+   }
+   .wrap2 img{
+    height: 28vh;
+    padding-left: 3%;
+   }
+   .boxes7{
+    width: 100%;
+    height: 140vh;
+   }
+   .mavzu1{
+    width: 100%;
+    height: 25%;
+   }
+   .mavzu::after{
+    font-size: 110px;
+   }
+   .mavzu h2{
+    font-size: 21px;
+   }
+   .mavzu1 h3{
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 10%;
+
+   }
+   .rasm2_1{
+    width: 37%;
+    height: 35%;
+   }
+   .rasm2_2{
+    position: absolute;
+    top: 96%;
+    width: 90%;
+    height: 20%;
+   }
+   .rasmlar2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+
+   }
+   .rasm2_2 h2{
+    font-size: 17px;
+   }
+   .rasm2_2 h3{
+    font-size: 15px;
+
+   }
+   .boxes8{
+    width: 100%;
+    height: 35vh;
+   }
+   .max1 h1{
+    font-size: 12px;
+   }
+   .max1::after{
+    font-size: 70px;
+   }
+   .max3 button{
+    margin-top: 2%;
+    width: 15%;
+    height: 25%;
+    font-size: 8px;
+    padding: 0px;
+   }
+   .max3 input{
+    width: 80%;
+    height: 10%;
+   }
+   footer{
+    width: 100%;
+    height: 15vh;
+   }
+   .ari{
+    width: 100%;
+    height: 6vh;
+   }
+   .ari1 h6{
+    font-size: 6px;
+
+   }
+   .ari1 img{
+    width: 12px;
+    height: 12px;
+
+   }
+
+}
+
+@media (max-width: 400px) and (min-width: 300px){
+    .boxes{
+        height: 30vh;
+    }
+    .box1{
+        height: 12%;
+    }
+   .box1_1{
+    width: 20%;
+    height: 70%;
+   }
+   .box1_1 .durdon{
+    width: 19%;
+   }
+   .durdon::after{
+    font-size: 5px;
+   }
+   .box1_2{
+    width: 80%;
+   }
+   .box1_2 a{
+    font-size: 7px;
+   }
+   .box1_2 svg{
+    width: 8px;
+    height: 18px;
+   }
+   .box2{
+    height: 60%;
+   }
+   
+   .box2 h1{
+    font-size: 30px;
+
+   }
+   .box2 h3{
+    font-size: 7px;
+    letter-spacing: 2px;
+   }
+   .box4_1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+   }
+   .box4_1 svg{
+    width: 7px;
+    height: 7px;
+   }
+   .box3 h4{
+    font-size: 7px;
+   }
+   .boxes2{
+    height: 200vh;
+   }
+   .div1 h1{
+    font-size: 14px;
+   }
+   .div1{
+    height: 15%;
+   }
+   .div2{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .div2_1{
+    width: 70%;
+    height: 38%;
+
+   }
+   .div2_1{
+
+    margin: 3%;
+    text-align:justify;
+   }
+   .div2_1 h4{
+    font-size: 17px;
+   }
+   .div2_1 h3{
+    font-size: 14px;
+   }
+   .div1::after{
+    font-size: 100px;
+   }
+   .divcha{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+   }
+   .divcha svg{
+    width: 20px;
+    height: 20px;
+   }
+   .boxes3{
+    width: 100%;
+    height: 180vh;
+   }
+   .quti5{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   }
+   .quti6{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+   }
+   .quti1_1 p{
+    font-size: 13px;
+   }
+   .quti1{
+    width: 100%;
+    height: 50%;
+   }
+   .quti2{
+    width: 100%;
+    height: 50%;
+   }
+   .quti3{
+    width: 100%;
+    height: 50%;
+   }
+   .quti4{
+    width: 100%;
+    height: 50%;
+   }
+   .quti1_1 h2{
+    font-size: 17px;
+   }
+   .quti4_1 p{
+    font-size: 13px;
+   }
+   .quti4_1 h4{
+    font-size: 11px;
+    color: gray;
+
+   }
+   .quti1_1 h4{
+    font-size: 11px;
+    color:white;
+
+   }
+   .quti4_1 h2{
+    font-size: 17px;
+   }
+   .quti1_1 h6{
+    font-size: 8px;
+   }
+   .quti4 h6{
+    font-size: 8px;
+   }
+   .boxes4{
+    height: 350vh;
+   }
+   .text {
+    width: 100%;
+    height: 10%;
+   }
+   .text1{
+    height: 60%;
+   }
+   .text1 h2{
+    font-size: 20px;
+   }
+   .text1::after{
+    font-size: 100px;
+   }
+   .text h3{
+    color: gray;
+    font-size: 10px;
+
+   }
+   .rasmlar{
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .rasm{
+    width: 80%;
+    padding: 3%;
+    height: 15%;
+   }
+   .rasm h3{
+    font-size: 15px;
+   }
+   .rasm h4{
+    font-size: 13px;
+    text-align: justify;
+   }
+   .boxes5{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .matn{
+    width: 100%;
+    height: 50%;
+   }
+
+   .matn svg{
+    width: 45px;
+    height: 45px;
+   }
+   .matn p{
+    font-size: 12px;
+   }
+   .boxes6{
+    width: 100%;
+    height: 25vh;
+   }
+   .wrap1_1 h3,h4{
+    font-size: 4px;
+   }
+   .wrap1_1 h2{
+    font-size: 9px;
+   }
+   .wrap2 img{
+    height: 20vh;
+    padding-left: 3%;
+   }
+   .boxes7{
+    width: 100%;
+    height: 350vh;
+   }
+   .mavzu1{
+    width: 100%;
+    height: 10%;
+   }
+   .mavzu::after{
+    font-size: 100px;
+   }
+   .mavzu h2{
+    font-size: 20px;
+   }
+   .mavzu1 h3{
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+
+   }
+   .rasm2_1{
+    width: 75%;
+    height: 30%;
+    margin-bottom: 3%;
+   }
+   .rasm2_2{
+    position: absolute;
+    top: 85%;
+    width: 80%;
+    height: 15%;
+   }
+   .rasmlar2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+
+   }
+   .rasm2_2 h2{
+    font-size: 20px;
+   }
+   .rasm2_2 h3{
+    font-size: 17px;
+
+   }
+   .boxes8{
+    width: 100%;
+    height: 25vh;
+   }
+   .max1 h1{
+    font-size: 9px;
+   }
+   .max1::after{
+    font-size: 50px;
+   }
+   .max3 button{
+    margin-top: 2%;
+    width: 15%;
+    height: 25%;
+    font-size: 8px;
+    padding: 0px;
+   }
+   .max3 input{
+    width: 80%;
+    height: 10%;
+   }
+   footer{
+    width: 100%;
+    height: 12vh;
+   }
+   .ari{
+    width: 100%;
+    height: 5vh;
+   }
+   .ari1 h6{
+    font-size: 6px;
+
+   }
+   .ari1 img{
+    width: 12px;
+    height: 12px;
+
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
